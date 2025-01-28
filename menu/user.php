@@ -1,52 +1,24 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "user_recipes";
-//  require pour me permettre d'ajouter PDO a mes fichiers sans  retaper la requette
-
-try {
-    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    
-
-    if (isset($_POST["submit"])) {
-        $name = $_POST["name"];
-        $description = $_POST["description"];
-        $price = $_POST["price"];
-        $category = $_POST["category"];
-
-        $stmt = $conn->prepare("INSERT INTO recipes (name, description, price, category) VALUES (:name, :description, :price, :category)");
-        $stmt->bindParam(':name', $name);
-        $stmt->bindParam(':description', $description);
-        $stmt->bindParam(':price', $price);
-        $stmt->bindParam(':category', $category);
-        
-
-        $stmt->execute();
-        echo "New record created successfully";
-        header("Location: recette.php");
-        exit();
-    }
-} catch(PDOException $e) {
-    echo "Error: " . $e->getMessage();
-}
-
-$conn = null;
+include("data.php");
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
     <title>User</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="recipes.css">
 </head>
 <body>
-
+ 
+<div class="form-container">
 <form action="user.php" method="post" enctype="multipart/form-data">
-    <input type="text" name="name" placeholder="Name"> <br>
+    <label for="name">Nom du plat</label>
+    <input type="text" name="name" placeholder="ex couscous"> <br>
+    <label for="description">Description</label>
     <textarea name="description" placeholder="Description" rows="4" cols="50"></textarea> <br>
-    <input type="text" name="price" placeholder="Price"> <br>
+    <label for="prix">Prix</label>
+    <input type="text" name="price" placeholder="15€"> <br>
+    
 
     <select name="category">
         <option value="1">Entrée</option>
@@ -58,7 +30,12 @@ $conn = null;
     <input type="reset" value="Réinitialiser">
    
 </form>
+</div>
+<p>Bienvenue dans votre espace de création !
 
+Vous êtes maintenant prêt à sublimer votre carte. 
+Créez, modifiez et personnalisez vos plats pour offrir une expérience 
+Prenez le temps de bien définir chaque recette et les ingrédients</p>
 </body>
 
 </html>

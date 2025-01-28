@@ -1,0 +1,40 @@
+.s1 {
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    color: #333;
+    appearance: none; /* Remove default arrow */
+   
+}
+
+.s1:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.img1 {
+   position: relative;
+   left: 60%;   
+    border-radius: 10px;
+    margin-left: 18px;
+    border-style: groove inset;
+    animation: bounce 4s infinite;
+    margin-left: 1%;
+}
+
+p {
+    line-height: 1.5; 
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    
+    border-style: groove inset;
+}
+
+h1 {
+    color: #ce1313;
+   
+}
