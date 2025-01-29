@@ -12,7 +12,7 @@
     session_start();
     if (isset($_SESSION['username'])) {
         echo '<h1>Bonjour ' . $_SESSION['username'] . '</h1>';
-        echo '<a href="logout.php">Déconnexion</a>';
+        echo '<a href="deconnexion.php">Déconnexion</a>';
     } else {
         echo '<h1>Bienvenue</h1>';
         echo '<a href="login.php">Connexion</a>';
