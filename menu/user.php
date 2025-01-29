@@ -6,11 +6,26 @@ include("data.php");
 <html>
 <head>
     <title>User</title>
-    <link rel="stylesheet" type="text/css" href="recipes.css">
+    <link rel="stylesheet" type="text/css" href="user.css">
 </head>
 <body>
+<header>
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img src="logo_cuisine_du_monde.png." alt="Logo" class="logo">
+            </div>
+            <div class="nav-title">
+                <h1>Cuisine du Monde</h1>
+            </div>
+            <div class="nav-user">
+                <i class="fas fa-user-circle"></i>
+            </div>
+
+        </nav>
+    </header>
  
 <div class="form-container">
+    
 <form action="user.php" method="post" enctype="multipart/form-data">
     <label for="name">Nom du plat</label>
     <input type="text" name="name" placeholder="ex couscous"> <br>
@@ -31,11 +46,7 @@ include("data.php");
    
 </form>
 </div>
-<p>Bienvenue dans votre espace de création !
 
-Vous êtes maintenant prêt à sublimer votre carte. 
-Créez, modifiez et personnalisez vos plats pour offrir une expérience 
-Prenez le temps de bien définir chaque recette et les ingrédients</p>
 </body>
 
 </html>

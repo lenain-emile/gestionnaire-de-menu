@@ -2,9 +2,10 @@
 <html>
 <head>
     <title>User</title>
-    <link rel="stylesheet" type="text/css" href="recipe.css">
+    <link rel="stylesheet" type="text/css" href="recettes.css">
 </head>
 <body>
+    
 <h1>Recettes</h1>
 <p>Bienvenue dans l’espace dédié à vos recettes ! Nous sommes ravis de vous accueillir parmi nous. <br> Ce lieu est conçu pour mettre en valeur votre savoir-faire culinaire et partager vos créations avec une communauté passionnée <br>
 Que vous soyez un chef expérimenté ou un restaurateur innovant, cette page est le reflet de votre talent et de votre créativité. <br> Prenez le temps de découvrir, d’ajouter et de faire connaître vos plats afin d’inspirer et ravir vos clients. À vous de briller !.</p>
@@ -25,7 +26,7 @@ Que vous soyez un chef expérimenté ou un restaurateur innovant, cette page est
             $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
             foreach ($result as $row) {
-                echo '<option value="' . $row['id'] . '">' . $row['name'] . '</option>';
+                echo '<option value="' . $row['id'] . '">' . $row['name'] . ' - ' . $row['price'] . '€</option>';
             }
         } catch (PDOException $e) {
             echo "Error: " . $e->getMessage();
@@ -35,8 +36,10 @@ Que vous soyez un chef expérimenté ou un restaurateur innovant, cette page est
     <button type="submit">Valider</button>
     
 </form>
-<img src="back.jpg" alt="couscous" class="img1">
+<img src="salades.jpg" alt="recette" width="500" height="300">
+<p></p>
 </body>
+
 </html>
 
 <?php
