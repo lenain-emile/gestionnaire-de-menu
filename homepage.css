@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'police-cuisine du monde';
+  src: url(AbrilFatface-Regular.ttf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 80px;
+  color: #fff;
+}
+
+
+.nav-logo .logo {
+  width: 85px;
+  height: 85px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.nav-title h1 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #c69666;
+  text-align: center;
+}
+
+.nav-user {
+  font-size: 2rem;
+  color: #c69666;
+  cursor: pointer;
+}
+.videoback1 {
+  width: 90%;
+  height: 700px;
+  margin-left: 90px;
+  overflow: hidden;
+  border-radius: 50px;
+
+}
+  
+p {
+  margin-left: 30%;
+  padding-top: 100px;
+  font-size: 24px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  max-width: 700px;
+  color: rgb(132, 132, 132);
+}
+
+.presentationimage {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.presentationimage img {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+
