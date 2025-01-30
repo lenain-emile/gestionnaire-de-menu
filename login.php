@@ -58,8 +58,8 @@ if ($_POST) {
         button {
             width: 100%;
             padding: 10px;
-            background-color: #4CAF50;
-            color: white;
+            background-color:white;
+            color: black;
             border: none;
             border-radius: 4px;
             cursor: pointer;
