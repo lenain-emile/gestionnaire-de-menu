@@ -44,7 +44,7 @@ include("data/data.php");
     <input type="submit" name="submit" value="Envoyer"> <br>
     
 <a href="salade.php"><input type="button" value="Entrée" class="modern-button"></a>
-<input type="reset" value="Réinitialiser">
+
 
 </form>
 </div>

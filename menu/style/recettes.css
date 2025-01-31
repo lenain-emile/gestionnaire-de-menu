@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(1, 1, 1);
 }
 
 p {
@@ -25,4 +25,16 @@ form {
 img {
 display: block;
 margin: auto;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
 }

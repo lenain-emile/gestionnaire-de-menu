@@ -10,7 +10,7 @@
 <p>Bienvenue dans l’espace dédié à vos recettes ! Nous sommes ravis de vous accueillir parmi nous. <br> Ce lieu est conçu pour mettre en valeur votre savoir-faire culinaire et partager vos créations avec une communauté passionnée <br>
 Que vous soyez un chef expérimenté ou un restaurateur innovant, cette page est le reflet de votre talent et de votre créativité. <br> Prenez le temps de découvrir, d’ajouter et de faire connaître vos plats afin d’inspirer et ravir vos clients. À vous de briller !.</p>
 
-<form method="post" action="recette-idr.php">
+<form method="post" action="recipe_page.php">
     <select class="s1" name="recipe_id">
         <?php
         $servername = "localhost";
@@ -34,7 +34,7 @@ Que vous soyez un chef expérimenté ou un restaurateur innovant, cette page est
         ?>
     </select>
     <button type="submit">Valider</button>
-    <button type="button" onclick="window.location.href='user.php'">Ecran des plats</button>
+    
 </form>
 </body>
 </html>
