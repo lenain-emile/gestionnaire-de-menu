@@ -33,14 +33,15 @@ body {
 }
 
 .nav-title h1 {
-  font-size: 2.4rem;
+  font-family: 'police-cuisine du monde';
+  font-size: 2.5rem;
   font-weight: 600;
   color: #c69666;
   text-align: center;
 }
 
 .nav-user {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #c69666;
   cursor: pointer;
 }
@@ -52,13 +53,16 @@ body {
   border-radius: 50px;
 
 }
-  
+
 p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.presentationtext {
   margin-left: 30%;
   padding-top: 100px;
-  font-size: 24px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+  font-size: 21px;
+  line-height: 1.4;
   display: flex;
   justify-content: center;
   text-align: justify;
@@ -66,16 +70,55 @@ p {
   color: rgb(132, 132, 132);
 }
 
-.presentationimage {
+.imagepresentation {
   padding-top: 120px;
   display: flex;
   justify-content: space-around;
 }
 
-.presentationimage img {
+.imagepresentation img {
   width: 600px;
   height: 400px;
   border-radius: 20px;
 }
 
+.recipe h2 {
+  padding-top: 130px;
+  font-size: 50px;
+  color: #c69666;
+  font-family: 'Lucia Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 100px;
+}
+
+.recipe .access-button {
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-around;
+} 
+
+.recipe .access-button img {
+  height: 350px;
+  width: 590px;
+  border-radius: 20px;
+}
+
+.recipe .access-button p {
+  padding-top: 60px;
+  font-size: 23px;
+  max-width: 480px;
+  color: rgb(132, 132, 132);
+}
+
+.btn {
+  margin-left: 70%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  padding: 10px 15px;
+  background-color: #c69666; 
+  color: white; 
+  font-size: 20px;
+  border-radius: 15px;
+  text-decoration: none;
+}
 
