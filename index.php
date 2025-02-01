@@ -31,7 +31,7 @@
                 <button type="submit">Connexion</button>
             </form>
             <div class="button-group">
-                <a href="index.php" class="btn">Accueil</a>
+                <a href="./user.php" class="btn">Accueil</a>
             </div>
         </div>
     <?php endif; ?>
