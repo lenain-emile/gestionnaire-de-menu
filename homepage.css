@@ -148,4 +148,144 @@ footer a {
 }
 
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap; /* Empêche le retour à la ligne */
+  padding: 0 2rem;
+  height: 80px;
+  color: #fff;
+}
 
+/* 📱 Tablettes et mobiles (max 768px) */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .nav-logo .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .nav-title h1 {
+    font-size: 2rem;
+  }
+
+  .nav-user {
+    font-size: 2rem;
+  }
+
+  /* 🌟 VIDÉO ajustée */
+  .videoback1 {
+    width: 75%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* 📜 TEXTE PRÉSENTATION */
+  .presentationtext {
+    max-width: 90%;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    padding: 40px 0;
+  }
+
+  /* 📸 IMAGES PRÉSENTATION */
+  .imagepresentation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .imagepresentation img {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 15px;
+  }
+
+  /* 🍽️ SECTION RECETTES */
+  .recipe h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .recipe .access-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recipe .access-button img {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 15px;
+  }
+
+  .recipe .access-button p {
+    width: 90%;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /* 🟠 BOUTON RECETTE */
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .btn-container a {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+}
+
+/* 📱 Petits écrans (max 480px) */
+@media screen and (max-width: 480px) {
+  .nav-title h1 {
+    font-size: 1.8rem;
+  }
+
+  .nav-user {
+    font-size: 1.8rem;
+  }
+
+  .presentationtext {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .imagepresentation img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .recipe .access-button img {
+    width: 100%;
+  }
+
+  .recipe .access-button p {
+    font-size: 16px;
+  }
+
+  .btn-container a {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
