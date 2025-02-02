@@ -133,5 +133,19 @@ p {
   border-radius: 17px;
 }
 
+ footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  padding: 4em 0;
+  margin-top: 2em;
+}
+
+footer a {
+  color: #c69666;
+  text-decoration: none;
+}
+
 
 
