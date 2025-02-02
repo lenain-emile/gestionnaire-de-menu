@@ -42,9 +42,13 @@ body {
 
 .nav-user {
   font-size: 3rem;
-  color: #c69666;
   cursor: pointer;
 }
+
+.nav-user i {
+  color: #c69666 ; 
+}
+
 .videoback1 {
   width: 90%;
   height: 700px;
@@ -110,15 +114,24 @@ p {
 }
 
 .btn {
-  margin-left: 70%;
-  display: inline-block;
-  display: flex;
-  justify-content: center;
-  padding: 10px 15px;
-  background-color: #c69666; 
-  color: white; 
+  display: inline-block; /* Ajuste la largeur au contenu */
+  padding: 25px 35px;
+  color: rgb(0, 0, 0); 
   font-size: 20px;
   border-radius: 15px;
   text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  border: none;
 }
+
+.btn-container {
+  width: 100%;
+  margin-left: 800%; 
+  margin-top: 20px;
+  background-color: #c69666;
+  border-radius: 17px;
+}
+
+
 
