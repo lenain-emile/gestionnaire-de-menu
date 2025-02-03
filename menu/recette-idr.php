@@ -43,7 +43,7 @@ $allRecipes = getAllRecipes($pdo);
     <nav>
         <div class="wrapper">
             <div class="nav-container">
-                <img src="images/logo.png" alt="">
+                <img src="https://emile-lenain.students-laplateforme.io/menu/images/logo.png" alt="">
                 <div class="links">
                 </div>
                 <div class="search">
@@ -58,7 +58,7 @@ $allRecipes = getAllRecipes($pdo);
         <div class="title"><h1 data-aos="fade-left" data-aos-duration="1000" >Nos meilleures recettes</h1></div>
         <div class="foods">
             <div class="card" data-aos="fade-up" data-aos-duration="1000">
-                <img src="images/salad.png" alt="">
+                <img src="https://emile-lenain.students-laplateforme.io/menu/images/salad.png" alt="">
                 <div class="discription">
                     <h1> Red Spinach with Carrot</h1>
                     <p>A spinach salad features tender spinach leaves tossed with vibrant toppings like crisp bacon, sliced mushrooms, and hard-boiled eggs, all drizzled in a zesty vinaigrette, offering a flavorful and nutritious combination in every bite.</p>
@@ -66,7 +66,7 @@ $allRecipes = getAllRecipes($pdo);
                 </div>
             </div>
             <div class="card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                <img src="images/salad1.png" alt="">
+                <img src="https://emile-lenain.students-laplateforme.io/menu/images/salad1.png" alt="">
                 <div class="discription">
                     <h1>Spinach With Carrot</h1>
                     <p>Combining the leafy goodness of spinach with the vibrant crunch of carrots, this salad offers a harmonious balance of flavors and textures, making it a refreshing and healthful choice for any meal and burst of freshness in every mouthful.</p>

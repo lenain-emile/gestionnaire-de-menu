@@ -23,7 +23,7 @@ if ($_POST) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion - Restaurant</title>
-    <link rel="stylesheet" href="./connexion.css">
+    <link rel="stylesheet" href="https://emile-lenain.students-laplateforme.io/menu/connexion.css">
 </head>
 
 <body>

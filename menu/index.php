@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Restaurant</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://emile-lenain.students-laplateforme.io/menu/index.css">
 </head>
 <body>
     <?php if (isset($_SESSION['username'])): ?>
@@ -16,8 +16,8 @@
             
             <h2>Bonjour <?php echo htmlspecialchars($_SESSION['username']); ?></h2>
             <div class="button-group">
-                <a href="user.php" class="btn">Recette</a>
-                <a href="deconnexion.php" class="btn">Déconnexion</a>
+                <a href="https://emile-lenain.students-laplateforme.io/menu/user.php" class="btn">Recette</a>
+                <a href="https://emile-lenain.students-laplateforme.io/menu/deconnexion.php" class="btn">Déconnexion</a>
             </div>
         </div>
     <?php else: ?>
