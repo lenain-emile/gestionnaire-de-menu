@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Restaurant</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./compte_utilisateurcss./index.css">
 </head>
 <body>
     <?php if (isset($_SESSION['username'])): ?>
@@ -13,7 +13,7 @@
             <div class="logo">
                 <img src="https://www.creativefabrica.com/wp-content/uploads/2018/10/Chef-restaurant-logo-by-DEEMKA-STUDIO-4.jpg" alt="Restaurant Logo">
             </div>
-            
+
             <h2>Bonjour <?php echo htmlspecialchars($_SESSION['username']); ?></h2>
             <div class="button-group">
                 <a href="index.php" class="btn">Accueil</a>
