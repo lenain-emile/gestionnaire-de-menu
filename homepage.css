@@ -127,7 +127,7 @@ p {
 
 .btn-container {
   width: 100%;
-  margin-left: 800%; 
+  margin-left: 630%; 
   margin-top: 20px;
   background-color: #c69666;
   border-radius: 17px;
@@ -152,7 +152,7 @@ footer a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: nowrap; /* Empêche le retour à la ligne */
+  flex-wrap: nowrap; 
   padding: 0 2rem;
   height: 80px;
   color: #fff;
