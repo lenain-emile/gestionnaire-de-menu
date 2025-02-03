@@ -13,6 +13,7 @@
             <div class="logo">
                 <img src="https://www.creativefabrica.com/wp-content/uploads/2018/10/Chef-restaurant-logo-by-DEEMKA-STUDIO-4.jpg" alt="Restaurant Logo">
             </div>
+            
             <h2>Bonjour <?php echo htmlspecialchars($_SESSION['username']); ?></h2>
             <div class="button-group">
                 <a href="index.php" class="btn">Accueil</a>
