@@ -36,7 +36,7 @@ $allRecipes = getAllRecipes($pdo);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="style/caca.css">
+    <link rel="stylesheet" href="idriss.css">
     <title>Food Website</title>
 </head>
 <body>
@@ -99,8 +99,9 @@ $allRecipes = getAllRecipes($pdo);
         <div class="foods">
             <?php foreach ($allRecipes as $recipe): ?>
                 <div class="card">
-                    <img src="<?php echo htmlspecialchars($recipe['image'] ?? 'images/default.png'); ?>" 
-                         alt="<?php echo htmlspecialchars($recipe['name'] ?? 'Recette'); ?>">
+                    <?php echo htmlspecialchars($recipe['image'] ?? 'images/default.png'); ?> 
+                         <?php echo htmlspecialchars($recipe['name'] ?? 'Recette'); ?>
+                        <img src="images/salad.png" alt=""> 
                     <div class="discription">
                         <h1><?php echo htmlspecialchars($recipe['name'] ?? 'Sans nom'); ?></h1>
                         <p><?php echo htmlspecialchars($recipe['description'] ?? 'Aucune description disponible'); ?></p>
@@ -117,6 +118,8 @@ $allRecipes = getAllRecipes($pdo);
                 </div>
             <?php endforeach; ?>
         </div>
+        
+        <button class="modern-button" onclick="window.location.href='user.php';"> retour</button>
     </section>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
