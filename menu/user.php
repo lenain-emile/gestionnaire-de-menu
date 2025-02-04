@@ -6,13 +6,13 @@ include("data/data.php");
 <html>
 <head>
     <title>User</title>
-    <link rel="stylesheet" href="emile-lenain.students-laplateforme.io/style/user.css">
+    <link rel="stylesheet" href="https://emile-lenain.students-laplateforme.io/style/user.css">
 </head>
 <body>
 <header>
         <nav class="navbar">
             <div class="nav-logo">
-                <img src="emile-lenain.students-laplateforme.io/img/logo_cuisine_du_monde.png" alt="Logo" class="logo">
+                <img src="https://emile-lenain.students-laplateforme.io/img/logo_cuisine_du_monde.png" alt="Logo" class="logo">
             </div>
             <div class="nav-title">
                 <h1>Cuisine du Monde</h1>
@@ -43,7 +43,7 @@ include("data/data.php");
     
     <input type="submit" name="submit" value="Envoyer"> <br>
     
-<a href="salade.php"><input type="button" value="Entrée" class="modern-button"></a>
+<a href="https://emile-lenain.students-laplateforme.io/salade.php"><input type="button" value="Entrée" class="modern-button"></a>
 
 
 </form>
