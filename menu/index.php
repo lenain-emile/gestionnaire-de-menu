@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Restaurant</title>
-    <link rel="stylesheet" href="emile-lenain.students-laplateforme.io/style/index.css">
+    <link rel="stylesheet" href="https://emile-lenain.students-laplateforme.io/style/index.css">
 </head>
 <body>
     <?php if (isset($_SESSION['username'])): ?>
@@ -16,8 +16,8 @@
             
             <h2>Bonjour <?php echo htmlspecialchars($_SESSION['username']); ?></h2>
             <div class="button-group">
-                <a href="user.php" class="btn">Recette</a>
-                <a href="deconnexion.php" class="btn">Déconnexion</a>
+                <a href="https://emile-lenain.students-laplateforme.io/user.php" class="btn">Recette</a>
+                <a href="https://emile-lenain.students-laplateforme.io/deconnexion.php" class="btn">Déconnexion</a>
             </div>
         </div>
     <?php else: ?>
@@ -32,7 +32,7 @@
                 <button type="submit">Connexion</button>
             </form>
             <div class="button-group">
-                <a href="user.php" class="btn">Accueil</a>
+                <a href="https://emile-lenain.students-laplateforme.io/user.php" class="btn">Accueil</a>
             </div>
         </div>
     <?php endif; ?>
