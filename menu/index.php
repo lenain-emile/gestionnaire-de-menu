@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Restaurant</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="emile-lenain.students-laplateforme.io/style/index.css">
 </head>
 <body>
     <?php if (isset($_SESSION['username'])): ?>

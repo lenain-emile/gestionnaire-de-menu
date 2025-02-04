@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "user_recipes";
+$host = 'localhost:3306';
+$dbname = 'emile-lenain_user_recipes';
+$username = 'Emile-Lenain';
+$password = 'Aa15345678!';
 
 
 try {

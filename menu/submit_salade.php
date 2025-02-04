@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 <head>
     <title>Salades</title>
-    <link rel="stylesheet"  href="style/salade.css">
+    <link rel="stylesheet"  href="emile-lenain.students-laplateforme.io/style/salade.css">
 </head>
 <body>
     <div class="center">
@@ -29,13 +29,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <td><?php echo $sauce; ?></td>
             </tr>
         </table>
-       <?php if ($autre_champ == "crevette") echo '<img src="img/salad2.png" alt="Salade" class="salade">'; ?>
+       <?php if ($autre_champ == "crevette") echo '<emile-lenain.students-laplateforme.io/img src="img/salad2.png" alt="Salade" class="salade">'; ?>
     <?php if ($autre_champ == "crevette") echo 'Salade cocktail de crevettes'; ?>
-       <?php if ($autre_champ == "Poulet rôti") echo '<img src="img/salad1.png" alt="Salade" class="salade">'; ?>
+       <?php if ($autre_champ == "Poulet rôti") echo '<emile-lenain.students-laplateforme.io/img src="img/salad1.png" alt="Salade" class="salade">'; ?>
        <?php if ($autre_champ == "Poulet rôti") echo 'Salade César'; ?>
-       <?php if ($autre_champ == "Oeuf dur") echo '<img src="img/salad3.png" alt="Salade" class="salade">'; ?>
+       <?php if ($autre_champ == "Oeuf dur") echo '<emile-lenain.students-laplateforme.io/img src="img/salad3.png" alt="Salade" class="salade">'; ?>
        <?php if ($autre_champ == "Oeuf dur") echo 'Salade niçoise'; ?>
-       <?php if ($autre_champ == "Jambon blanc") echo '<img src="img/salad4.png" alt="Salade" class="salade">'; ?>
+       <?php if ($autre_champ == "Jambon blanc") echo '<emile-lenain.students-laplateforme.io/img src="img/salad4.png" alt="Salade" class="salade">'; ?>
        <?php if ($autre_champ == "Jambon Blanc") echo 'Salade lyonnaise'; ?>
 
     </div>

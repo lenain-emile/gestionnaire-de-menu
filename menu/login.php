@@ -1,6 +1,6 @@
 <?php
 session_start();
-$pdo = new PDO('mysql:host=localhost;dbname=user_recipes', 'root', '',);
+$pdo = new PDO('mysql:host=localhost:3306;dbname=emile_lenain_user_recipes', 'Emile-Lenain', 'Aa15345678!',);
 
 if ($_POST) {
     $username = $_POST['username'];
@@ -23,7 +23,7 @@ if ($_POST) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connexion - Restaurant</title>
-    <link rel="stylesheet" href="./connexion.css">
+    <link rel="stylesheet" href="emile-lenain.students-laplateforme.io/connexion.css">
 </head>
 
 <body>

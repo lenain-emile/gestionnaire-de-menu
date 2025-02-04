@@ -1,8 +1,9 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "user_recipes";
+$host = 'localhost:3306';
+$dbname = 'emile-lenain_user_recipes';
+$username = 'Emile-Lenain';
+$password = 'Aa15345678!';
+
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $recipe_id = $_POST['recipe_id'];
@@ -34,5 +35,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 <head>
     <title>Recette</title>
-    <link rel="stylesheet" type="text/css" href="recipe.css">
+    <link rel="stylesheet" type="text/css" href="emile-lenain.students-laplateforme.iorecipe.css">
 </html>

@@ -6,13 +6,13 @@ include("data/data.php");
 <html>
 <head>
     <title>User</title>
-    <link rel="stylesheet" href="style/user.css">
+    <link rel="stylesheet" href="emile-lenain.students-laplateforme.io/style/user.css">
 </head>
 <body>
 <header>
         <nav class="navbar">
             <div class="nav-logo">
-                <img src="img/logo_cuisine_du_monde.png" alt="Logo" class="logo">
+                <img src="emile-lenain.students-laplateforme.io/img/logo_cuisine_du_monde.png" alt="Logo" class="logo">
             </div>
             <div class="nav-title">
                 <h1>Cuisine du Monde</h1>
