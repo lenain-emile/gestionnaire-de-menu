@@ -32,13 +32,13 @@ try {
 <html>
 <head>
     <title>Salades</title>
-    <link rel="stylesheet" type="text/css" href=emile-lenain.students-laplateforme.io/style/user.css>
+    <link rel="stylesheet" type="text/css" href=https://emile-lenain.students-laplateforme.io/style/user.css>
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="nav-logo">
-                <img src="emile-lenain.students-laplateforme.io/img/logo_cuisine_du_monde.png" alt="Logo" class="logo">
+                <img src="https://emile-lenain.students-laplateforme.io/img/logo_cuisine_du_monde.png" alt="Logo" class="logo">
             </div>
             <div class="nav-title">
                 <h1>Cuisine du Monde</h1>
