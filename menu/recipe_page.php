@@ -35,5 +35,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 <head>
     <title>Recette</title>
-    <link rel="stylesheet" type="text/css" href="https://emile-lenain.students-laplateforme.io.iorecipe.css">
+    <link rel="stylesheet" type="text/css" href="https://emile-lenain.students-laplateforme.io/recipe.css">
 </html>
